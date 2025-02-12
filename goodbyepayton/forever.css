@@ -1,0 +1,10 @@
+.multi-bg-example {
+  
+  width: 100%;
+  margin-top: 0%;
+  height: 650px;
+  background-image: url(https://people.reed.edu/~emilyd/goodbyepp/bruh1.png), url(https://people.reed.edu/~emilyd/goodbyepp/bruh2.png), url(https://people.reed.edu/~emilyd/goodbyepp/bruh3.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 20%, 20%, 20%;
+  background-position: left, center, right;
+}
