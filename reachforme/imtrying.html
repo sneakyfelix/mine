@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
+    <script src="https://unpkg.com/ml5@1/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="hand2.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <title> reach for me </title>
+    
+    <p> 
+      'i', 'feel', 'it', 'there', 'yet', 'not', 'seen', 'a', 'glimpse', 'tiny', 'but', 'unyielding', 'rather', 'mine', 'between', 'what', 'is', 'and', 
+'how', 'isn’t', 'can', 'reach', 'neither', 'either', 'or', 'cerca', 'softly', 'tracing', 'me', 'unknown', 'i', 'sense', 'you', 'pull', 'push', 
+'without', 'connection', 'be', 'light', 'iridescent', 'form', 'mold', 'tension', 'beneath', 'us', 'but', 'promises', 'no', 'traces', 'one', 'shape', 'there', 'two', 
+'not', 'an', 'outline', 'an', 'absence', 'yet', 'full', 'she', 'knows', 'forever', 'lost', 'enough', 'whenever', 'mind', 'take', 'just', 'time', 'before', 'decide', 'natural', 
+'voice', 'change', 'tender', 'tenderly', 'remind', 'let', 'go', 'seen', 'a', 'thread', 'unraveling', 'right', 'weaving', 'at', 'once', 'should', 'maybe', 'real', 
+'patience', 'reflection', 'window', 'mirror', 'cast', 'glass', 'a', 'alone', 'see', 'well', 'timing', 'tradgedy', 'cheer', 'steps', 'lead', 'to', 'pray', 
+'yet', 'always', 'arrive', 'somewhere', 'a', 'trance', 'with', 'little', 'lines', 'paths', 'crossing', 'cry', 'tracing', 'joining', 'reaching', 'placing', 'being', 'reading', 
+'touching', 'alone', 'lonely', 'as', 'nowhere', 'here', 'end', 'empty', 'beginning', 'fine', 'still', 'go', 'chasing', 'hidden', 'trains', 'obvious', 'it', 'calls', 
+'until', 'letters', 'words', 'charachters', 'full', 'circle', 'preaching', 'time', 'bends', 'but', 'does', 'bleached', 'files', 'break', 'moment', 'stretched', 'into', 
+'stars', 'files', 'fitting', 'back', 'to', 'pieces', 'sitting', 'waiting', 'day', 'evening', 'changing', 'pain', 'wont', 'give', 'a', 'blu', 'god', 'loves', 
+'future', 'past', 'raised', 'hit', 'hurts', 'end', 'beginning', 'middle', 'heart', 'twice', 'once', 'more', 'less', 'equal', 'lasting', 'truth', 'bearing', 
+'shows', 'home', 'meaning', 'spending', 'my', 'emptiness', 'in', 'searchs', 'sidelines', 'frontlines', 'tried', 'seeking', 'to', 'seek', 'search', 'driving', 'towards', 
+'it', 'ill', 'save', 'out', 'there', 'believe', 'it', 'will', 'be', 'i', 'me', 'its', 'pulse', 'aligns', 'pulsing', 'mine', 'teeming', 'forgiving', 
+'greeting', 'acceptance', 'patience', 'of', 'this', 'world', 'wrinkling', 'tell', 'when', 'endless', 'yet', 'brief', 'it', 'holds', 'hand', 'and', 'fingetips', 'edging', 
+'hill', 'trying', 'blindly', 'faith', 'key', 'like', 'a', 'kid', 'at', 'your', 'footsteps', 'doorstep', 'palms', 'questions', 'so', 'many', 'disperse', 
+'unanswered', 'small', 'signals', 'getting', 'weak', 'am', 'here', 'no', 'yes', 'remains', 'unseen', 'what', 'is', 'it', 'that', 'lurks', 'beyond', 'my', 'grasp', 
+'hands', 'feet', 'head', 'shoulders', 'arms', 'poke', 'hit', 'confusing', 'hear', 'amusing', 'after', 'all', 'silence', 'years', 'feeling', 'language', 'face', 'back', 
+'picked', 'floor', 'flooring', 'shelf', 'help', 'something', 'somewhere', 'somehow', 'listen', 'and', 'wait', 'it', 'is', 'out', 'worries', 'there', 'about', 'feeling', 'pain', 
+'weight', 'on', 'us', 'edge', 'time', 'awareness', 'forget', 'touch', 'right', 'felt', 'listen', 'known', 'breathing', 'a', 'shiver', 'in', 'the', 'body', 'a', 
+'beneath', 'underneath', 'connection', 'connect', 'next', 'myself', 'yourself', 'same', 'hurts', 'coming', 'reach', 'again', 'fingers', 'grasping', 'at', 'fullness', 'richness', 
+'depth', 'answers', 'a', 'sparking', 'against', 'skin', 'not', 'warm', 'not', 'cold', 'a', 'sentiment', 'life', 'here', 'and', 'not', 'another', 'longing', 
+'twice', 'close', 'side', 'distance', 'but', 'the', 'distance', 'stretches', 'it', 'holds', 'and', 'pulls', 'a', 'kindness', 'of', 'tenderness', 'motivation', 'be', 
+'and', 'control', 'intuition', 'will', 'belief', 'faith', 'anchors', 'me', 'a', 'belief', 'in', 'the', 'unknown', 'an', 'unrelenting', 'hope', 'i', 'reach', 
+'now', 'forver', 'must', 'because', 'please', 'stop', 'start', 'obvious', 'lose', 'obviously', 'pretending', 'recovering', 'recover', 'reimagine', 'retweet', 'rekindle', 'untethered', 'am', 'i', 'left', 
+'with', 'anything', 'very', 'in', 'the', 'data', 'button', 'the', 'leaves', 'mostly', 'noted', 'anew', 'stillness', 'i', 'feel', 'it', 'a', 'softness', 'just', 
+'out', 'of', 'reach', 'a', 'warmth', 'at', 'the', 'edge', 'of', 'the', 'cold', 'it', 'holds', 'me', 'even', 'as', 'it', 'slips', 'away', 'and', 
+'i', 'believe', 'because', 'i', 'must', 'because', 'without', 'belief', 'there', 'is', 'nothing', 'and', 'nothing', 'is', 'a', 'weight', 'i', 'cannot', 
+'hold', 'so', 'i', 'reach', 'and', 'reach', 'and', 'believe', 'one', 'day', 'my', 'fingers', 'will', 'close', 'around', 'it', 'and', 'when', 'they', 
+'do', 'i', 'will', 'finally', 'know', 'what', 'it', 'is', 'i', 'was', 'searching', 'for', 'a', 'touch', 'that', 'will', 'stay', 'a', 'feeling', 
+'that', 'will', 'be', 'mine', 'a', 'truth', 'that', 'cannot', 'slip', 'away', 'and', 'in', 'that', 'moment', 'i', 'will', 'be', 'whole'
+
+
+      
+    </p>
+    <br> 
+  
+  
+    
+    <main>
+    <div id="myCanvas"></div>
+    </main>
+    <script src="hand2.js"></script>
+  </body>
+</html>

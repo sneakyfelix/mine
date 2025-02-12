@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+p, p a{
+  font-family: Arial, sans-serif;
+  filter: blur(10px);
+  font-size: 1em;
+  color: rgba(0,128,0,0.47)
+}
+
+
+
+#myCanvas {
+  display: block;
+  margin: auto;
+  width: 200px; 
+  height: 200px; 
+  border: 2px solid blue;
+  opacity: 0%;
+}
